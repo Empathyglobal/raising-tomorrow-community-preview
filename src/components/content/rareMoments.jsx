@@ -1,0 +1,30 @@
+export const RARE_MOMENTS = [
+  // Royal (10)
+  { id: 'royal_crowned_early', title: 'Crowned Too Soon', rarity: 'rare', description: 'You became monarch unusually young.', shareTemplate: '👑 {name} was crowned at age {age}. #RaisingTomorrow' },
+  { id: 'royal_global_scandal', title: 'Global Scandal', rarity: 'legendary', description: 'A scandal echoed worldwide.', shareTemplate: '🗞️ Global scandal at age {age}. #RaisingTomorrow' },
+  { id: 'royal_heir_viral', title: 'Heir Goes Viral', rarity: 'rare', description: 'The heir trended for days.', shareTemplate: '📈 Viral heir moment at {age}. #RaisingTomorrow' },
+  { id: 'royal_charity_wave', title: 'Charity Wave', rarity: 'rare', description: 'A fundraiser broke records.', shareTemplate: '🎗️ Record charity at {age}. #RaisingTomorrow' },
+  { id: 'royal_tab_magnet', title: 'Tabloid Magnet', rarity: 'rare', description: 'You couldn\'t escape the tabloids.', shareTemplate: '📰 Headlines nonstop at {age}. #RaisingTomorrow' },
+  { id: 'royal_diplomacy_win', title: 'Diplomacy Win', rarity: 'rare', description: 'You defused an international spat.', shareTemplate: '🤝 Diplomacy win at {age}. #RaisingTomorrow' },
+  { id: 'royal_secret_wedding', title: 'Secret Wedding', rarity: 'rare', description: 'A hush-hush ceremony!', shareTemplate: '💒 Secret vows at {age}. #RaisingTomorrow' },
+  { id: 'royal_popstar_friend', title: 'Popstar Bestie', rarity: 'rare', description: 'Unexpected celebrity best friend.', shareTemplate: '🎤 New bestie era at {age}. #RaisingTomorrow' },
+  { id: 'royal_memes', title: 'Meme Monarch', rarity: 'rare', description: 'You became a meme (affectionately).', shareTemplate: '😂 Meme era at {age}. #RaisingTomorrow' },
+  { id: 'royal_union', title: 'King/Queen of Hearts', rarity: 'legendary', description: 'Beloved beyond titles.', shareTemplate: '💛 Beloved leader at {age}. #RaisingTomorrow' },
+  // Early childhood/parenting (8)
+  { id: 'genius_toddler', title: 'Genius Toddler', rarity: 'legendary', description: 'Off-the-charts early intelligence.', shareTemplate: '🧠 Genius toddler signs by {age}. #RaisingTomorrow' },
+  { id: 'confidence_rocket', title: 'Confidence Rocket', rarity: 'rare', description: 'Confidence exploded this year.', shareTemplate: '🚀 Confidence up at {age}. #RaisingTomorrow' },
+  { id: 'confidence_crash', title: 'Confidence Crash', rarity: 'rare', description: 'Confidence dipped sharply.', shareTemplate: '🪂 Confidence dropped at {age}. #RaisingTomorrow' },
+  { id: 'family_peace', title: 'Peace Season', rarity: 'rare', description: 'Remarkably calm year at home.', shareTemplate: '🕊️ Peace season at {age}. #RaisingTomorrow' },
+  { id: 'new_tradition', title: 'New Tradition', rarity: 'rare', description: 'A family ritual stuck.', shareTemplate: '📜 New tradition at {age}. #RaisingTomorrow' },
+  { id: 'kid_philosopher', title: 'Kid Philosopher', rarity: 'rare', description: 'A line we\'ll never forget.', shareTemplate: '💡 Kid wisdom at {age}. #RaisingTomorrow' },
+  { id: 'tiny_cute', title: 'Tiny Cute Legend', rarity: 'rare', description: 'Ridiculously cute moment.', shareTemplate: '💛 Tiny cute at {age}. #RaisingTomorrow' },
+  { id: 'repair_chapter', title: 'Repair Chapter', rarity: 'rare', description: 'You modeled repair beautifully.', shareTemplate: '🧵 Repair chapter at {age}. #RaisingTomorrow' },
+  // Money/life chaos (7)
+  { id: 'money_printer', title: 'Money Printer', rarity: 'rare', description: 'Huge positive money swing this year.', shareTemplate: '💸 +${delta} at {age}. #RaisingTomorrow' },
+  { id: 'oops_era', title: 'Oops Era', rarity: 'rare', description: 'A costly year… character-building.', shareTemplate: '😬 ${delta} at {age}. #RaisingTomorrow' },
+  { id: 'side_gig_boom', title: 'Side-Gig Boom', rarity: 'rare', description: 'Your hustle paid off.', shareTemplate: '💼 Boom year at {age}. #RaisingTomorrow' },
+  { id: 'market_whiplash', title: 'Market Whiplash', rarity: 'rare', description: 'Wild swings, you survived.', shareTemplate: '📉📈 Whiplash at {age}. #RaisingTomorrow' },
+  { id: 'unexpected_windfall', title: 'Unexpected Windfall', rarity: 'rare', description: 'Money came from nowhere.', shareTemplate: '🎁 Windfall at {age}. #RaisingTomorrow' },
+  { id: 'health_bill', title: 'Health Bill Mountain', rarity: 'rare', description: 'Health costs spiked.', shareTemplate: '🏥 Big bill at {age}. #RaisingTomorrow' },
+  { id: 'first_home', title: 'First Home', rarity: 'rare', description: 'You bought a home.', shareTemplate: '🏠 First home at {age}. #RaisingTomorrow' },
+];

@@ -1,0 +1,2 @@
+import {Link} from 'react-router-dom';
+export default function OnlineMultiplayer(){return <main className="min-h-screen p-8 bg-slate-50 text-slate-900"><h1 className="text-2xl font-bold">Online multiplayer is unavailable in this preview</h1><p className="my-4">This isolated copy cannot create or join remote sessions. Local gameplay and pass-and-play remain available. Your current game has not been reset.</p><Link to="/Start" className="underline">Back to start</Link></main>}

@@ -1,0 +1,24 @@
+INSTRUCTION FOR MANUAL PATCH (or separate small file):
+Insert this code block AFTER the household income payment (around line 7075) and BEFORE the Kim special start check:
+
+```javascript
+    // Small business income (annual, if active)
+    try {
+      const bizIncomeBase = Number(gameState.businessIncomePerYear || 0);
+      const startAge = gameState.businessIncomeStartAge;
+      const eligible = bizIncomeBase > 0 && (startAge == null || Number(age) >= Number(startAge));
+      if (eligible) {
+        const bizScale = getCountryLocalCostScale(gameState.countryIso3 || 'USA');
+        const bizIncomeLocal = localizeAmount(bizIncomeBase, bizScale, PRICING.LOCAL);
+        if (bizIncomeLocal > 0) {
+          applyMoneyDelta(bizIncomeLocal, 'Small business income', {
+            category: 'business',
+            ageOverride: age,
+            note: gameState.businessIdea ? `Business: ${gameState.businessIdea}` : undefined
+          });
+        }
+      }
+    } catch {}
+```
+
+Insert location: In applyStartOfAgeResources function, after applying household income (line ~7075) and before Kim special start (line ~7095)
