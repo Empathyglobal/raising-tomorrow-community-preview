@@ -1,6 +1,6 @@
 # Raising Tomorrow
 
-A parenting life simulation about choices, consequences, repair, and learning. Created by **Eric Gonzalez-Payne, a Harvard-trained educator**, to help people learn about parenting through playful decisions and reflection. The project is personally owned by its creator; Harvard does not endorse or sponsor it.
+A parenting life simulation about choices, consequences, repair, and learning. Created by **Eric Gonzalez-Payne, a Harvard-trained educator**, to help people learn about parenting through playful decisions and reflection.
 
 ## Private preparation copy
 
