@@ -6,7 +6,7 @@ A parenting life simulation about choices, consequences, repair, and learning. C
 
 This repository is a **private, sanitized preparation copy** exported from an existing Base44 project on October 31, 2026. It is for owner review, not a public release. Its initial commit records the sanitized export as it exists today; it does **not** recreate the original project's development or Base44 checkpoint history.
 
-This separate export must not be represented as an original-history repository for BYOP eligibility. Organizer confirmation, owner approval for any public release, and a license decision are separate outstanding steps. The owner reports that the original project has no real users yet. No user records or backend database exports are included here.
+This separate export must not be represented as an original-history repository for BYOP eligibility. Organizer confirmation and owner approval for any public release are separate outstanding steps. The owner reports that the original project has no real users yet. No user records or backend database exports are included here.
 
 ## What is included
 
@@ -56,4 +56,4 @@ See [REVIEW.md](REVIEW.md) for actual checks, limitations, and remaining blocker
 
 ## License and release
 
-**License pending the creator's choice.** No open-source license has been selected or granted for this preparation copy. Dependency licenses remain applicable to their respective packages. Keep the repository private until the owner explicitly approves a release and its licensing.
+The creator's original code is licensed under the [MIT License](LICENSE), copyright (c) 2026 Eric Gonzalez-Payne. Third-party code, assets, and dependencies remain subject to their respective licenses and notices. Keep the repository private until the owner explicitly approves a public release.
