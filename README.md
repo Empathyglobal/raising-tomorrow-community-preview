@@ -2,11 +2,11 @@
 
 A parenting life simulation about choices, consequences, repair, and learning. Created by **Eric Gonzalez-Payne, a Harvard-trained educator**, to help people learn about parenting through playful decisions and reflection.
 
-## Private preparation copy
+## Public community preview
 
-This repository is a **private, sanitized preparation copy** exported from an existing Base44 project on October 31, 2026. It is for owner review, not a public release. Its initial commit records the sanitized export as it exists today; it does **not** recreate the original project's development or Base44 checkpoint history.
+This repository is a **public, sanitized community preview** exported from an existing Base44 project on October 31, 2026 and released with the owner's approval. Its initial commit records the sanitized export; it does **not** recreate the original project's development or Base44 checkpoint history.
 
-This separate export must not be represented as an original-history repository for BYOP eligibility. Organizer confirmation and owner approval for any public release are separate outstanding steps. The owner reports that the original project has no real users yet. No user records or backend database exports are included here.
+This separate export must not be represented as an original-history repository for BYOP eligibility. Public release does not establish BYOP eligibility; organizer confirmation remains outstanding. The owner reports that the original project has no real users yet. No user records or backend database exports are included here.
 
 ## What is included
 
@@ -56,4 +56,4 @@ See [REVIEW.md](REVIEW.md) for actual checks, limitations, and remaining blocker
 
 ## License and release
 
-The creator's original code is licensed under the [MIT License](LICENSE), copyright (c) 2026 Eric Gonzalez-Payne. Third-party code, assets, and dependencies remain subject to their respective licenses and notices. Keep the repository private until the owner explicitly approves a public release.
+The creator's original code is licensed under the [MIT License](LICENSE), copyright (c) 2026 Eric Gonzalez-Payne. Third-party code, assets, and dependencies remain subject to their respective licenses and notices.
